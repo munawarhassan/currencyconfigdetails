@@ -18,7 +18,7 @@ spring:
         ddl-auto: create-drop        
 
 currencyservice.eurekaurl: http://localhost:8761/eureka
-currencyservice.zipkinurl: http://192.168.99.100:9411/
+#currencyservice.zipkinurl: http://192.168.99.100:9411/
 currencyservice.configserverurl: http://localhost.100:8888     
 
 #currencyservice.eurekaurl: http://192.168.99.100:8761/eureka
