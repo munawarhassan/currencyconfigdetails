@@ -5,7 +5,7 @@ spring:
       - id: CurrencyExchangeService
         uri: lb://CurrencyExchangeService
         predicates:
-        - Path=/currencyexchange/convertcurrency/**
+        - Path=/currencyexchange/**
       - id: CurrencyConversionFactorService
         uri: lb://CurrencyConversionFactorService
         predicates:
