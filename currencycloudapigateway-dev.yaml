@@ -2,12 +2,12 @@ spring:
   cloud:   
    gateway:
       routes:
-      - id: CurrencyExchangeService
-        uri: lb://CurrencyExchangeService
+      - id: currencyexchangeservice
+        uri: lb://currencyexchangeservice
         predicates:
         - Path=/currencyexchange/**
-      - id: CurrencyConversionFactorService
-        uri: lb://CurrencyConversionFactorService
+      - id: currencyconversionfactorservice
+        uri: lb://currencyconversionfactorservice
         predicates:
         - Path=/currencyconversionfactor/** 
 
