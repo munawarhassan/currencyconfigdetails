@@ -1,0 +1,13 @@
+spring:
+  cloud:   
+   gateway:
+      routes:
+      - id: CurrencyExchangeService
+        uri: lb://CurrencyExchangeService
+        predicates:
+        - Path=/currencyexchange/convertcurrency/**
+      - id: CurrencyConversionFactorService
+        uri: lb://CurrencyConversionFactorService
+        predicates:
+        - Path=/currencyconversionfactor/** 
+
