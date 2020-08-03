@@ -1,6 +1,6 @@
-currencyexchangeservice.greetProp: "Hello , I am ready for service 2" 
-currencyexchangeservice.EUROconversionfactor: 1.15
-currencyexchangeservice.INRconversionfactor:  0.017
-currencyexchangeservice.AUDconversionfactor:  0.75
-currencyexchangeservice.GBPconversionfactor:  1.25
+greetProp: "Hello , I am ready for service 2" 
+EUROconversionfactor: 1.15
+INRconversionfactor:  0.017
+AUDconversionfactor:  0.75
+GBPconversionfactor:  1.25
                  
