@@ -23,4 +23,11 @@ spring:
 
 currencyservice_eurekaurl: http://192.168.99.100:8761/eureka
 currencyservice_zipkinurl: http://192.168.99.100:9411/
-currencyservice_configserverurl: http://192.168.99.100:8888       
+currencyservice_configserverurl: http://192.168.99.100:8888      
+
+greetProp: "Hello , I am ready for service 2" 
+EUROconversionfactor: 1.15
+INRconversionfactor:  0.017
+AUDconversionfactor:  0.75
+GBPconversionfactor:  1.25
+                  
