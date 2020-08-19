@@ -1,1 +1,7 @@
- greetProp: "Hello , I am ready for grocery online"
+spring:
+  admin:
+     username: admin
+     password: admin
+    
+
+greetProp: "Hello , I am ready for grocery online"
