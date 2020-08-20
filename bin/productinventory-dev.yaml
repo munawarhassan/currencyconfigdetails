@@ -6,7 +6,7 @@ spring:
       settings:
         web-allow-others: true
   datasource:
-    url:  jdbc:h2:mem:groceryDb;DB_CLOSE_DELAY=-1
+    url:  jdbc:h2:mem:productDb;DB_CLOSE_DELAY=-1
     username: sa
     password: null
     driver-class-name: org.h2.Driver
@@ -18,8 +18,4 @@ spring:
         show_sql: true
         ddl-auto: create-drop   
 
-  admin:
-     username: admin
-     password: admin
-     
-greetProp: "Hello , I am ready for grocery online"
+greetProp: "Hello , I am ready for product inventory"
