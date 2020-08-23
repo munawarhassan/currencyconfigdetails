@@ -1,1 +1,4 @@
+spring: 
+  datasource:
+    data: classpath:/sql/import-h21.sql
 greetProp: "Hello , I am ready for shop online"
