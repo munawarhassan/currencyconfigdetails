@@ -19,10 +19,10 @@ spring:
 
     
 
-#currencyservice_eurekaurl: http://localhost:8761/eureka
-#currencyservice_zipkinurl: http://192.168.99.100:9411/
-#currencyservice_configserverurl: http://localhost:8888     
+currencyservice_eurekaurl: http://localhost:8761/eureka
+currencyservice_zipkinurl: http://192.168.99.100:9411/zipkin/
+currencyservice_configserverurl: http://localhost:8888     
 
-currencyservice_eurekaurl: http://172.18.12.176:8761/eureka
-currencyservice_zipkinurl: http://172.18.12.176:9411/
-currencyservice_configserverurl: http://172.18.12.176:8888      
+#currencyservice_eurekaurl: http://172.18.12.176:8761/eureka
+#currencyservice_zipkinurl: http://192.168.99.100:9411/zipkin/
+#currencyservice_configserverurl: http://172.18.12.176:8888      
